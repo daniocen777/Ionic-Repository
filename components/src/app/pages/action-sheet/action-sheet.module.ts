@@ -9,8 +9,6 @@ import { ActionSheetPageRoutingModule } from './action-sheet-routing.module';
 import { ActionSheetPage } from './action-sheet.page';
 import { ComponentsModule } from 'src/app/components/components.module';
 
-import { ActionSheet, ActionSheetOptions } from '@ionic-native/action-sheet/ngx';
-
 @NgModule({
   imports: [
     CommonModule,

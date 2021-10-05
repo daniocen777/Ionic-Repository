@@ -16,7 +16,7 @@ interface CustomComponent {
 export class InicioPage implements OnInit {
   components: CustomComponent[] = [
     { icon: 'american-football', name: 'Action Sheet', redirecTo: '/action-sheet' },
-    { icon: 'apps', name: 'Alert', redirecTo: '/alert' },
+    { icon: 'logo-apple-appstore', name: 'Alert', redirecTo: '/alert' },
   ];
 
   constructor() { }

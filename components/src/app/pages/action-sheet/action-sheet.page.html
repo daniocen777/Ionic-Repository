@@ -1,7 +1,12 @@
 <app-header [title]="'aciton sheet'"></app-header>
 
 <ion-content class="ion-padding">
-  <ion-button expand="block" fill="clear" shape="round">
+  <ion-button
+    expand="block"
+    fill="clear"
+    color="primary"
+    (click)="presentActionSheet()"
+  >
     Mostrar Action Sheet
   </ion-button>
 </ion-content>
