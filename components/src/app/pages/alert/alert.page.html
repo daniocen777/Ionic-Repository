@@ -1,3 +1,21 @@
-<app-header [title]="'alert page'"></app-header>
+<app-header [title]="valueInput"></app-header>
 
-<ion-content> </ion-content>
+<ion-content>
+  <ion-button
+    expand="block"
+    fill="clear"
+    color="tertiary"
+    (click)="presentAlert()"
+  >
+    Mostrar Alerta
+  </ion-button>
+  <!--  -->
+  <ion-button
+    expand="block"
+    fill="clear"
+    color="primary"
+    (click)="presentAlertPrompt()"
+  >
+    Mostrar Alerta Input
+  </ion-button>
+</ion-content>
